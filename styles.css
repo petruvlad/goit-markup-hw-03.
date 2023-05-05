@@ -1,0 +1,302 @@
+:root { 
+  --link-color: #212121;
+  --p-color: #757575;
+  --text-color: #2196f3;
+  --backgound-color: #ffffff;
+}
+html {
+  box-sizing: border-box;
+  
+}
+  
+body {
+background: #E5E5E5;
+
+    font-family: "Roboto", sans-serif;
+    
+}
+.container{
+  width: 1200px;
+  
+}
+li {
+  list-style-type: none;
+}
+
+ .section {
+  width: 1200px;
+ }
+ 
+.header-class .main-class  {
+  background-color: var(--backgound-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+height: 80px;
+width: 1200px;
+margin-left: 94px;
+
+
+}
+
+.header-class .main-class ul{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+
+  }
+
+  .header-class .main-class li{
+   
+    justify-content: center;
+    align-items: center;
+    margin-left: 42px;
+  }
+  .main-class .logo-class span{
+      color: #2196F3;
+
+   
+  }
+
+  .main-class .logo-class {
+    font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0.03em;
+text-align: left;
+
+
+
+  }
+
+  .main-class ul {
+  display: flex;  
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+
+  }
+  .nav-class a:visited {
+  color: var(--link-color);
+}
+.nav-class a.active {
+  color: var(--text-color);
+}
+.nav-class a:hover {
+  color: var(--text-color);
+}
+
+  .main-class .portofolio {
+     color: #212121;
+  }
+
+  .main-class .tel-class {
+    color: #757575;
+   margin-left: 40px;
+  }
+.main-class .email-class{
+  padding: 32px 40px 32px 200px;
+
+}
+  .section-title-class  {
+    background-color: var(--link-color);
+    
+width: 1200px;
+height: 600px;
+margin-left:94px;
+
+    }
+
+
+
+  .section-title-class .h1-hero {
+      color: var(--backgound-color);
+position: absolute;
+width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+  }
+
+ 
+  
+ .title-class button:hover {
+   color: var(--text-color);}
+
+ .section-title-class button {
+     background-color: #2196F3;
+     height: 50px;
+width: 200px;
+left: 700px;
+top: 430px;
+border-radius: 4px;
+color: var(--backgound-color);
+position: absolute;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+cursor: pointer;
+align-items: center;
+
+ }
+
+
+ 
+ 
+ 
+h3, h4 {
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-align: left;
+color: var(--link-color);
+}
+p {
+  
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+color: var(--link-color);
+
+
+}
+ h2 {
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0.03em;
+padding-left:701px ;
+
+
+
+ }
+ .section .our-value {
+    display: flex;
+    gap: 30px;
+    background-color: var(--backgound-color);
+    align-items: center;
+    margin-left: 215px;
+
+}
+
+.section .our-work  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color:var(--backgound-color);
+  padding-left: 94px;
+  margin-left: 94px;
+}
+
+.section .our-team {
+  display: flex;
+  gap: 30px;
+  margin: 94px;
+}
+
+.footer-class {
+  background-color: var(--link-color);
+  display: flex;
+  margin-left: 94px;
+
+
+
+}
+
+.footer-class .logo-class span {
+  color: var(--text-color);
+  
+width: 145px;
+height: 31px;
+left: 215px;
+top: 2157px;
+
+font-style: normal;
+font-weight: 700;
+
+}
+
+.footer-class .street-class {
+  color:var(--backgound-color);
+  font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+padding-bottom: 12px;
+
+
+}
+
+.footer-class a {
+  color:var(--p-color);
+  padding-bottom: 12px;
+}
+
+.footer-class .logo-class {
+  padding-bottom: 28px;
+  color: var(--backgound-color);
+}
+
+.footer-class a:hover {
+  color: var(--text-color);
+}
+
+.portofolio-class ul{
+  background-color: var(--backgound-color);
+  width: 1200px;
+
+
+}
+.portofolio-class .button-class {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+margin: 94px;
+border-radius: 4px;
+
+ 
+  
+}
+
+
+.button-class button.active {
+  color:var(--backgound-color);
+  background-color: var(--text-color);
+}
+
+.portofolio-class .images-class {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 30px;
+  row-gap: 30px;
+  margin: 94px;
+ 
+  align-items: center;
+justify-content: center;
+
+}
+
